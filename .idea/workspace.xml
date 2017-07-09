@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c871fd9c-86dd-4dd1-9a0d-adaebc535029" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/localhost.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/function.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/head.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery-1.9.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rabot.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/safemysql.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/база данных.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -285,16 +272,23 @@
       <option name="presentableId" value="Default" />
       <updated>1499546687398</updated>
       <workItem from="1499546689168" duration="10051000" />
-      <workItem from="1499626347025" duration="11217000" />
+      <workItem from="1499626347025" duration="11788000" />
     </task>
+    <task id="LOCAL-00001" summary="первый коммит">
+      <created>1499637625593</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1499637625593</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21268000" />
+    <option name="totallyTimeSpent" value="21839000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -320,6 +314,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="первый коммит" />
+    <option name="LAST_COMMIT_MESSAGE" value="первый коммит" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
