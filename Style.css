@@ -1,0 +1,116 @@
+﻿BODY {
+	FONT-SIZE: 13;
+	FONT-FAMILY: Tahoma;
+	padding: 0;
+	margin: 0;
+	background-color: #dfe6eb;
+	cursor: default;
+	min-width: 980px;
+}
+/*главное меню*/
+ul.menu {
+	list-style: none; /*убираем маркеры списка*/
+	margin: 0; /*убираем отступы*/
+	padding-left: 0; /*убираем отступы*/
+	margin-top:5px; /*делаем отступ сверху*/
+	background:#819A32; /*добавляем фон всему меню*/
+	height: 25px; /*задаем высоту*/
+	FONT-SIZE: 8;
+}
+li.menu a {
+	text-decoration: none; /*убираем подчеркивание текста ссылок*/
+	background:#819A32; /*добавляем фон к пункту меню*/
+	color:#fff; /*меняем цвет ссылок*/
+	padding:0px 15px; /*добавляем отступ*/
+	font-family: arial; /*меняем шрифт*/
+	line-height:25px; /*ровняем меню по вертикали*/
+	display: block;
+	border-right: 1px solid #677B27; /*добавляем бордюр справа*/
+	-moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+	-o-transition: all 0.3s 0.01s ease;
+	-webkit-transition: all 0.3s 0.01s ease;
+}
+li.menu a:hover{
+	background:#D43737 !important;/*добавляем эффект при наведении*/
+}
+li.menu .current {
+	background:#D43737;
+}
+li.menu {
+	float:left; /*Размещаем список горизонтально для реализации меню*/
+	position:relative; /*задаем позицию для позиционирования*/
+}
+/*таблица*/
+table {
+	background: #f5ffff;
+	border-collapse: collapse;
+	text-align: left;
+	FONT-SIZE: 8;
+}
+tr:nth-child(odd) {
+	background: #ebf3f9;
+}
+td {
+	border: 1px solid #e3eef7;
+	padding: 10px 15px;
+	position: relative;
+	transition: all 0.5s ease;
+}
+tbody:hover td{
+	color: transparent;
+	text-shadow: 0 0 3px #a09f9d;
+	cursor: pointer;
+}
+tbody:hover tr:hover td {
+	color: #444444;
+	text-shadow: none;
+	cursor: pointer;
+}
+/*кнопка задачи*/
+.block {
+
+	position: relative;
+	FONT-SIZE: 8;
+	background: RGB(176, 224, 230);
+	width: 40px; height: 15px;
+text-align: center;
+	vertical-align:middle;
+}
+.block::after {
+	content: '';
+	position: absolute;
+	right: -18px; top: -0.5px;
+	border: 8px solid transparent ;
+	border-left: 10px solid RGB(176, 224, 230);
+}
+
+.child {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 30%;
+	width: 50%;
+	margin: -15% 0 0 -25%;
+}
+/*кнопка добавить*/
+ .buttom {
+	display: inline-block; /* Строчно-блочный элемент */
+    padding: 5px 5px; /* Добавляем поля */
+    text-decoration: none; /* Убираем подчёркивание у ссылки */
+    cursor: pointer; /* Курсор в виде руки */
+    background: #deefff; /* Фон для браузеров, не поддерживающих градиент */
+    /* Градиент */
+    background: -moz-linear-gradient(top, #deefff 0%, #98bede 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#deefff), color-stop(100%,#98bede));
+    background: -webkit-linear-gradient(top, #deefff 0%,#98bede 100%);
+    background: -o-linear-gradient(top, #deefff 0%,#98bede 100%);
+    background: -ms-linear-gradient(top, #deefff 0%,#98bede 100%);
+    background: linear-gradient(top, #deefff 0%,#98bede 100%);
+    border-radius: 10px; /* Скругляем уголки */
+    border: 1px solid #008; /* Добавляем синюю рамку */
+    font: 8px/1 Arial, sans-serif; /* Рубленый шрифт */
+    color: #2c539e; /* Цвет текста и ссылки */
+   }
+ .content{
+	 margin-left: 50px;
+ }
